@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import SubscribeForm from '../components/SubscribeForm'
+import Carousel from '../components/Carousel'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center min-h-screen py-2">
         <h1 className="text-4xl font-bold mb-4">Subscribe to our Newsletter</h1>
         <SubscribeForm />
+        <Carousel autoSlide={true} autoSlideInterval={3000} />
       </main>
     </div>
   )
