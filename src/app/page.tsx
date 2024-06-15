@@ -7,8 +7,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Frontend Technical Test</title>
-        <meta name="description" content="landscapes" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="test" content="landscapes" />
       </Head>
 
       <main className='flex flex-col'>
